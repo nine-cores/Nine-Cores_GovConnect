@@ -1,5 +1,5 @@
 # Build stage
-FROM node:24-alpine3.19 AS builder
+FROM node:24-alpine AS builder
 WORKDIR /app
 COPY package.json pnpm-lock.yaml ./
 RUN npm install -g pnpm && pnpm install
@@ -7,9 +7,11 @@ COPY . .
 RUN pnpm build
 
 # Production stage
-FROM node:24-alpine3.19
+FROM node:24-alpine
 WORKDIR /app
 COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/citizens.json ./citizens.json
+
 COPY package.json pnpm-lock.yaml ./
 RUN npm install -g pnpm && pnpm install --prod
 EXPOSE 4601

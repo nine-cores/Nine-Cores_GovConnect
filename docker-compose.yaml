@@ -3,17 +3,17 @@ services:
     build:
       context: ./client
       dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_BASE_URL=http://localhost:4601/api/v1
     ports:
       - "4600:4600"
     environment:
       - NEXT_PUBLIC_API_BASE_URL=http://localhost:4601/api/v1
-    volumes:
-      - ./client:/app
-      - /app/node_modules
     depends_on:
       - server
     networks:
       - tt-app-network
+    working_dir: /app
 
   server:
     build:
@@ -23,6 +23,11 @@ services:
       - "4601:4601"
     environment:
       - NODE_ENV=${NODE_ENV}
+
+      - PORT=${PORT}
+      - API_URL=${API_URL}
+      - API_HOST=${API_HOST}
+      - APP_URL=${APP_URL}
 
       #  database
       - DB_USER=${DB_USER}
@@ -42,9 +47,6 @@ services:
     depends_on:
       - postgres-db
       - mailhog
-    volumes:
-      - ./server:/app
-      - /app/node_modules
     networks:
       - tt-app-network
 
