@@ -29,9 +29,8 @@ pnpm db:fresh
 ```
 
 
-## Services
+## GramaNiladhari Login
 
-The docker-compose configuration includes:
-- Client application (frontend)
-- Mail service for email handling
+username: rajesh.gn@gov.lk
+password: GN123!@#
 
