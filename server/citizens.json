@@ -1,0 +1,363 @@
+[
+  {
+    "citizen": {
+      "NIC": "199512345678",
+      "name": {
+        "sinhala": "ආරියසිංහ මුදියන්සේලාගේ ජනක බන්ඩාර",
+        "english": "Janaka Bandara Ariyasinghe",
+        "tamil": ""
+      },
+      "birthday": "1995-05-12",
+      "grama_sewa_division_code": "DIV001",
+      "district": "CMB",
+      "gender": "Male",
+      "address": {
+        "street": "123, Main Street",
+        "city": "Colombo",
+        "postal_code": "00300"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "198734567890",
+      "name": {
+        "sinhala": "",
+        "english": "Aishwarya Devi Rajaratnam",
+        "tamil": "ஐஸ்வர்யா தேவி ராஜரத்னம்"
+      },
+      "birthday": "1987-11-03",
+      "grama_sewa_division_code": "DIV002",
+      "district": "JAF",
+      "gender": "Female",
+      "address": {
+        "street": "45, Beach Road",
+        "city": "Jaffna",
+        "postal_code": "40000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "197823456789",
+      "name": {
+        "sinhala": "විජේසිංහ රුවන් ලක්ෂිත",
+        "english": "Ruwan Lakshitha Wijesinghe",
+        "tamil": ""
+      },
+      "birthday": "1978-08-22",
+      "grama_sewa_division_code": "DIV002",
+      "district": "KAN",
+      "gender": "Male",
+      "address": {
+        "street": "78, Temple Road",
+        "city": "Kandy",
+        "postal_code": "20000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "199045678901",
+      "name": {
+        "sinhala": "",
+        "english": "Fathima Nuzra Mohamed",
+        "tamil": "ஃபாத்திமா நுஸ்ரா முஹம்மத்"
+      },
+      "birthday": "1990-03-15",
+      "grama_sewa_division_code": "DIV001",
+      "district": "GAL",
+      "gender": "Female",
+      "address": {
+        "street": "12, Sea View Lane",
+        "city": "Galle",
+        "postal_code": "80000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "200112345678",
+      "name": {
+        "sinhala": "ගුණරත්න ලකිත් ජයසිංහ",
+        "english": "Lakith Jayasinghe Gunaratne",
+        "tamil": ""
+      },
+      "birthday": "2001-07-19",
+      "grama_sewa_division_code": "DIV001",
+      "district": "CMB",
+      "gender": "Male",
+      "address": {
+        "street": "56, Park Road",
+        "city": "Colombo",
+        "postal_code": "00500"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "198456789012",
+      "name": {
+        "sinhala": "",
+        "english": "Suresh Kumar Balasubramaniam",
+        "tamil": "சுரேஷ் குமார் பாலசுப்ரமணியம்"
+      },
+      "birthday": "1984-02-28",
+      "grama_sewa_division_code": "DIV001",
+      "district": "BAT",
+      "gender": "Male",
+      "address": {
+        "street": "19, Station Road",
+        "city": "Batticaloa",
+        "postal_code": "30000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "199378901234",
+      "name": {
+        "sinhala": "පෙරේරා නිශාන්ති සිල්වා",
+        "english": "Nishanthi Silva Perera",
+        "tamil": ""
+      },
+      "birthday": "1993-10-05",
+      "grama_sewa_division_code": "DIV002",
+      "district": "GAM",
+      "gender": "Female",
+      "address": {
+        "street": "34, Lake View",
+        "city": "Gampaha",
+        "postal_code": "11000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "197512345678",
+      "name": {
+        "sinhala": "",
+        "english": "Arjun Selvarajah",
+        "tamil": "அர்ஜுன் செல்வராஜா"
+      },
+      "birthday": "1975-12-30",
+      "grama_sewa_division_code": "DIV002",
+      "district": "TRN",
+      "gender": "Male",
+      "address": {
+        "street": "88, Church Street",
+        "city": "Trincomalee",
+        "postal_code": "31000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "198912345678",
+      "name": {
+        "sinhala": "දිසානායක චමින්ද විජේවර්ධන",
+        "english": "Chaminda Wijewardhana Dissanayake",
+        "tamil": ""
+      },
+      "birthday": "1989-06-17",
+      "grama_sewa_division_code": "KUR-009",
+      "district": "KUR",
+      "gender": "Male",
+      "address": {
+        "street": "22, Hill Street",
+        "city": "Kurunegala",
+        "postal_code": "60000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "199645678901",
+      "name": {
+        "sinhala": "",
+        "english": "Lakshmi Priya Sivakumar",
+        "tamil": "லக்ஷ்மி பிரியா சிவகுமார்"
+      },
+      "birthday": "1996-04-09",
+      "grama_sewa_division_code": "AMP-006",
+      "district": "AMP",
+      "gender": "Female",
+      "address": {
+        "street": "67, Main Road",
+        "city": "Ampara",
+        "postal_code": "32000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "198223456789",
+      "name": {
+        "sinhala": "කුලතුංග තිලිණි මධුෂිකා",
+        "english": "Thilini Madushika Kulathunga",
+        "tamil": ""
+      },
+      "birthday": "1982-09-25",
+      "grama_sewa_division_code": "RAT-010",
+      "district": "RAT",
+      "gender": "Female",
+      "address": {
+        "street": "15, Garden Lane",
+        "city": "Ratnapura",
+        "postal_code": "70000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "197912345678",
+      "name": {
+        "sinhala": "",
+        "english": "Mohamed Rizwan Cassim",
+        "tamil": "மொஹம்மத் ரிஸ்வான் காசிம்"
+      },
+      "birthday": "1979-01-14",
+      "grama_sewa_division_code": "CMB-003",
+      "district": "CMB",
+      "gender": "Male",
+      "address": {
+        "street": "99, Galle Road",
+        "city": "Colombo",
+        "postal_code": "00400"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "199812345678",
+      "name": {
+        "sinhala": "ජයවර්ධන සංජය රත්නායක",
+        "english": "Sanjaya Ratnayake Jayawardhana",
+        "tamil": ""
+      },
+      "birthday": "1998-03-07",
+      "grama_sewa_division_code": "MAT-011",
+      "district": "MAT",
+      "gender": "Male",
+      "address": {
+        "street": "44, Kandy Road",
+        "city": "Matara",
+        "postal_code": "81000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "198678901234",
+      "name": {
+        "sinhala": "",
+        "english": "Nandhini Arulrajah",
+        "tamil": "நந்தினி அருள்ராஜா"
+      },
+      "birthday": "1986-12-01",
+      "grama_sewa_division_code": "VAV-013",
+      "district": "VAV",
+      "gender": "Female",
+      "address": {
+        "street": "33, Coastal Road",
+        "city": "Vavuniya",
+        "postal_code": "43000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "199112345678",
+      "name": {
+        "sinhala": "සමරසිංහ ඉෂාන් ගුණවර්ධන",
+        "english": "Ishan Gunawardhana Samarasinghe",
+        "tamil": ""
+      },
+      "birthday": "1991-05-29",
+      "grama_sewa_division_code": "ANU-014",
+      "district": "ANU",
+      "gender": "Male",
+      "address": {
+        "street": "27, Temple Lane",
+        "city": "Anuradhapura",
+        "postal_code": "50000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "197612345678",
+      "name": {
+        "sinhala": "වික්‍රමසිංහ දිල්හාන් ජයතිලක",
+        "english": "Dilhan Jayathilaka Wickramasinghe",
+        "tamil": ""
+      },
+      "birthday": "1976-11-11",
+      "grama_sewa_division_code": "POL-016",
+      "district": "POL",
+      "gender": "Male",
+      "address": {
+        "street": "88, New Town",
+        "city": "Polonnaruwa",
+        "postal_code": "51000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "199456789012",
+      "name": {
+        "sinhala": "",
+        "english": "Aamina Zainab Ismail",
+        "tamil": "ஆமினா ஸைனப் இஸ்மாயில்"
+      },
+      "birthday": "1994-02-20",
+      "grama_sewa_division_code": "PUT-017",
+      "district": "PUT",
+      "gender": "Female",
+      "address": {
+        "street": "11, Market Road",
+        "city": "Puttalam",
+        "postal_code": "61000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "198012345678",
+      "name": {
+        "sinhala": "රත්නායක සුමිත් බුද්ධික",
+        "english": "Sumith Buddhika Rathnayake",
+        "tamil": ""
+      },
+      "birthday": "1980-08-08",
+      "grama_sewa_division_code": "BAD-018",
+      "district": "BAD",
+      "gender": "Male",
+      "address": {
+        "street": "55, Lake Road",
+        "city": "Badulla",
+        "postal_code": "90000"
+      }
+    }
+  },
+  {
+    "citizen": {
+      "NIC": "199712345678",
+      "name": {
+        "sinhala": "",
+        "english": "Kavitha Yogarajah",
+        "tamil": "கவிதா யோகராஜா"
+      },
+      "birthday": "1997-04-23",
+      "grama_sewa_division_code": "KIL-019",
+      "district": "KIL",
+      "gender": "Female",
+      "address": {
+        "street": "77, Station Lane",
+        "city": "Kilinochchi",
+        "postal_code": "44000"
+      }
+    }
+  }
+]

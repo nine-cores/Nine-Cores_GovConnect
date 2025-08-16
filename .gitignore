@@ -55,3 +55,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+server/test/
+server/API_ENDPOINTS_SUMMARY.md
+server/API_ENDPOINTS.md
+server/AUTH_DOCUMENTATION.md
+server/CITIZEN_MANAGEMENT_DOCUMENTATION.md
+server/DOCUMENT_UPLOAD_API.md
+server/ENTITIES_DOCUMENTATION.md
+server/src/database/migrations/
