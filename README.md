@@ -31,6 +31,6 @@ pnpm db:fresh
 
 ## GramaNiladhari Login
 
-username: rajesh.gn@gov.lk
-password: GN123!@#
+- username: rajesh.gn@gov.lk
+- password: GN123!@#
 
