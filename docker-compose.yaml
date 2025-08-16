@@ -1,0 +1,85 @@
+services:
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "4600:4600"
+    environment:
+      - NEXT_PUBLIC_API_BASE_URL=http://localhost:4601/api/v1
+    volumes:
+      - ./client:/app
+      - /app/node_modules
+    depends_on:
+      - server
+    networks:
+      - tt-app-network
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "4601:4601"
+    environment:
+      - NODE_ENV=${NODE_ENV}
+
+      #  database
+      - DB_USER=${DB_USER}
+      - DB_NAME=${DB_NAME}
+      - DB_PWD=${DB_PWD}
+      - DB_HOST=tt-postgres-db
+      - DB_PORT=5432
+
+      # mail
+      - SMTP_HOST=tt-mailhog
+      - SMTP_PORT=1025
+
+      # jwt
+      - ACCESS_JWT_SECRET=${ACCESS_JWT_SECRET}
+      - REFRESH_JWT_SECRET=${REFRESH_JWT_SECRET}
+
+    depends_on:
+      - postgres-db
+      - mailhog
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+    networks:
+      - tt-app-network
+
+  postgres-db:
+    image: postgres:15
+    hostname: tt-postgres-db
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PWD}
+      - POSTGRES_DB=${DB_NAME}
+    volumes:
+      - tt-postgres-data:/var/lib/postgresql/data
+    ports:
+      - "${DB_PORT}:5432"
+    networks:
+      - tt-app-network
+
+  mailhog:
+    image: mailhog/mailhog:latest
+    hostname: tt-mailhog
+    ports:
+      - "${WEB_PORT}:8025" # Web UI
+      - "${SMTP_PORT}:1025" # SMTP
+    environment:
+      - MH_STORAGE=maildir
+      - MH_MAILDIR_PATH=/maildir
+    volumes:
+      - tt-mailhog-data:/maildir
+    networks:
+      - tt-app-network
+
+volumes:
+  tt-postgres-data:
+  tt-mailhog-data:
+
+networks:
+  tt-app-network:
+    driver: bridge
