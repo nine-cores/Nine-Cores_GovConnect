@@ -71,16 +71,12 @@ services:
       - "${WEB_PORT}:8025" # Web UI
       - "${SMTP_PORT}:1025" # SMTP
     environment:
-      - MH_STORAGE=maildir
-      - MH_MAILDIR_PATH=/maildir
-    volumes:
-      - tt-mailhog-data:/maildir
+      - MH_STORAGE=memory    # Use memory storage instead of maildir
     networks:
       - tt-app-network
 
 volumes:
   tt-postgres-data:
-  tt-mailhog-data:
 
 networks:
   tt-app-network:
