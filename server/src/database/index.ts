@@ -1,4 +1,4 @@
-import { db } from '@/config';
+import { db, env } from '@/config';
 import path from 'path';
 import { DataSource } from 'typeorm';
 import { SnakeNamingStrategy } from 'typeorm-naming-strategies';
@@ -10,7 +10,7 @@ export const AppDataSource = new DataSource({
     username: db.user,
     password: db.pwd,
     database: db.name,
-    synchronize: false,
+    synchronize: env !== 'production',
     logging: false,
     entities: [path.join(__dirname, '/entities/**/*.entity.{ts,js}')],
     migrations: [path.join(__dirname, '/migrations/**/*.{ts,js}')],
